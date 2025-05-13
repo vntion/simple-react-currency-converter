@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --shadow-1: 0 0 2px rgba(0, 0, 0, 0.1), 0 2px 32px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: theme(--font-roboto);
+}
