@@ -35,7 +35,7 @@ function CurrencyRates() {
     rate: rate.toFixed(2),
   }));
 
-  latestRates = isShowAll ? latestRates : latestRates.slice(0, 13);
+  latestRates = isShowAll ? latestRates : latestRates.slice(0, 15);
 
   return (
     <div className="shadow-1 grow-1 rounded-2xl p-4">

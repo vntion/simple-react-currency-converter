@@ -60,7 +60,7 @@ function Form() {
   };
 
   return (
-    <div className="shadow-1 basis-[70%] self-start rounded-2xl bg-white p-4">
+    <div className="shadow-1 rounded-2xl bg-white p-4 lg:basis-[70%] lg:self-start">
       <h1 className="border-b border-b-gray-300 pb-1 text-2xl font-bold">
         Currency converter
       </h1>
